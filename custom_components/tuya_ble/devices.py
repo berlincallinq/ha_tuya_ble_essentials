@@ -433,7 +433,7 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
             ),
         },
     ),
-    "wk": TuyaBLECategoryInfo(
+"wk": TuyaBLECategoryInfo(
         products={
             **dict.fromkeys(
                 [
@@ -443,6 +443,14 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
                 TuyaBLEProductInfo(
                     name="Thermostatic Radiator Valve",
                 ),
+            ),
+        },
+    ),
+    "wkf": TuyaBLECategoryInfo(
+        products={
+            "ftduq25v": TuyaBLEProductInfo(
+                name="Essentials Radiator Thermostat",
+                manufacturer="essentials",
             ),
         },
     ),
